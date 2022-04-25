@@ -14,7 +14,9 @@ function descendingOrder(n) {
     });
 
   var orderedArr = myArr
-    .sort((a, b) => b - a)
+    .sort((a, b) => {
+      b - a;
+    })
     .join()
     .replaceAll(",", "");
   return orderedArr;
