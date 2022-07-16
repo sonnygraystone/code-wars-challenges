@@ -9,7 +9,7 @@ function solution(T) {
     return "normal";
   }
 
-  if (T >= 37.5 && T < 40) {
+  if (T >= 37.5 && T <= 40) {
     return "fever";
   }
 
